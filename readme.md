@@ -11,7 +11,11 @@ For this lab, we will be using the `marketing_customer_analysis.csv` file that y
 1. Show the dataframe shape.
 2. Standardize header names.
 3. Which columns are numerical?
+Customer Lifetime Value, Income, Monthly Premium Auto, Months Since Last Claim, Months Since Policy Inception, Number of Open Complaints, Number of Policies, Total Claim Amount.
+
 4. Which columns are categorical?
+Customer, State, Response, Coverage, Education, Effective To Date, EmploymentStatus, Gender, Location Code, Marital Status, Policy Type, Policy, Renew Offer Type, Sales Channel, Vehicle Class, Vehicle Size, Vehicle Type.
+
 5. Check and deal with `NaN` values.
 6. Datetime format - Extract the months from the dataset and store in a separate column. Then filter the data to show only the information for the first quarter , ie. January, February and March. _Hint_: If data from March does not exist, consider only January and February.
 7. BONUS: Put all the previously mentioned data transformations into a function.
